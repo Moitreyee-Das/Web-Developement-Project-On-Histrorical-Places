@@ -22,4 +22,5 @@ This project is a web page showcasing a collection of historical places and thei
 3. Make sure change the href if you change any linked files name
 4. change the image path to where you saved it
 5. Change the name in the footer
-6. Feel free to Make any changes 
+6. Feel free to make any changes
+7. I've added a Summary file to give you a idea how the project suppose to look like
