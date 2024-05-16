@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    }
+    #img{
+    float: left;
+    width: 16.6666%;
+    }
+    #center{
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-style: italic;
+    border:0px solid;
+    padding: 10px;
+    background-color: rgba(38, 55, 54, 0.508);
+    }
+    #heading{
+    text-align: center;
+    font-size:40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: pink;
+    }
+    #back{
+    font-size: larger;
+    font-family:Arial, Helvetica, sans-serifx;
+    color: wheat;
+    }
+    #container {
+    align-items: center;
+    justify-content: center;
+    float:right;
+    }
+    #title{
+    font-size: 30px;
+    font-family: cursive;
+    color:rgb(250, 246, 210);
+    }
+    #list{
+    font-size: 20px;
+    font-family: cursive;
+    color:rgb(247, 207, 159)
+    }
+    a:link {
+    color:rgb(247, 207, 159);
+    background-color: transparent;
+    text-decoration: none;
+    }
+    a:visited {
+    color: rgb(247, 207, 159);
+    background-color: transparent;
+    text-decoration: none;
+    }
+    a:hover {
+    color: pink;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+    a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+    }
+    #photo{
+    display: block;
+    margin-left: 350px;
+    margin-right: auto;
+    float: center;
+    }
+    #descrip{
+    font-style: italic;
+    color:beige;
+    font-size: 20px;
+    }
+    #body{
+    margin: 0%;
+    padding: 0%;
+    height:100%;
+    display:flexbox;
+    flex-direction: column;
+    }
+    #main{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    outline: 5px solid whitesmoke;
+    }
+    #whole{
+    display: flex;
+    }
+    #footer{
+    padding: 20px;
+    text-align: center;
+    background:var(body);
+    font-size: 30px;
+    font-family:initial;
+    }
+    .header {
+    overflow: hidden;
+    padding: 20px 10px;
+    }
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+    .header a:hover {
+    color: black;
+    }
+    .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    }
+    .header-right {
+    float: right;
+    }
+    @media screen and (max-width: 500px) {
+    .header a {
+    float: none;
+    display: block;
+    text-align: left;
+    }
+    .header-right {
+    float: none;
+    }
+    }
